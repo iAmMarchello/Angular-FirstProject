@@ -1,0 +1,43 @@
+
+/* You can add global styles to this file, and also import other style files 
+
+input[type="email"] {
+width       : 40%;
+padding     : 12px 15px;
+margin      : 20px 25px;
+box-sizing    : padding-box;
+border        : 2px solid green;
+border-radius : 10px
+}
+*/
+input[id="loginForm"]{
+	width         : 70%;
+	padding       : 12px 15px;
+	margin        : 20px 55px;
+	box-sizing    : border-box;
+	border        : 2px solid green;
+	border-radius : 10px
+}
+
+label[type="fileInput"]{
+	color         : currentColor;
+	margin        : 80px 20px;
+}
+
+
+div.loginmodal-container{
+	margin-top  : 106px;
+	margin-left : 121px;
+}
+
+div.login-help{
+	margin-left: 121px;
+}
+
+h1{
+	margin-left  :  40px;
+}
+
+.modal-backdrop{
+	opacity:0.87 !important;
+}
